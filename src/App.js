@@ -5,12 +5,14 @@ import SearchStudent from './components/SearchStudent';
 import DeleteStudent from './components/DeleteStudent';
 import ViewAllStudent from './components/ViewAllStudent';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import LoginPage from './components/LoginPage';
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={ <AddStudent/> }/>
+      <Route path="/" element={ <LoginPage/> }/>
+      <Route path="/add" element={ <AddStudent/> }/>
       <Route path="/search" element={ <SearchStudent/> }/>
       <Route path="/delete" element={ <DeleteStudent/> }/>
       <Route path="/view" element={ <ViewAllStudent/> }/>

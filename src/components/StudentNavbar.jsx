@@ -12,7 +12,8 @@ const StudentNavbar = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <Link class="nav-link active" aria-current="page" to="/">Add Student</Link>
+        <Link class="nav-link active" aria-current="page" to="/">Login Page</Link>
+        <Link class="nav-link" to="/add">Add Student</Link>
         <Link class="nav-link" to="/search">Search Student</Link>
         <Link class="nav-link" to="/delete">Delete Student</Link>
         <Link class="nav-link" to="/view">View All Students</Link>
